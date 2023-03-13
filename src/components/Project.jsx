@@ -3,6 +3,7 @@ function Project({caption, url, tec = null, path = "./ex.png", alt, wide = 1, ta
     react: './react.svg',
     svelte: './svelte.svg',
     wp: './wp.svg',
+    js: './js.svg'
   }
 
   return (

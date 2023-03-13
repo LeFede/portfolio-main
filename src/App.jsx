@@ -60,6 +60,7 @@ function App() {
         <section id="work">
           <h2>{finalData?.e3 || ''}</h2>
           <div className='projects container'>
+            <Project alt="JS Calculator page" caption="JS Calculator" path='./calc.png' url="https://js-calculator-five-kappa.vercel.app/" tec="js"/>
             <Project alt="React Todo page" caption="React TODO" path='./react.png' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
             <Project alt="Svelte Todo page" caption="Svelte TODO" path='./svelte.png' url="https://svelte-todo-eta.vercel.app/" tec="svelte"/>
             <Project alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./hawaii.png' url="https://www.thehawaiibowl.com/" tec="wp"/>
