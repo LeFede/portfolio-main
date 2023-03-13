@@ -60,10 +60,12 @@ function App() {
         <section id="work">
           <h2>{finalData?.e3 || ''}</h2>
           <div className='projects container'>
-            <Project alt='project1' caption='Hawaii Bowl' path='./hawaii.png' url="https://www.thehawaiibowl.com/" tec="wp"/>
-            <Project alt='project2' caption='Mexico Bowl' path='./mexico.png' url="https://newmexicobowl.com/" tec="wp"/>
-            <Project alt='project3' caption='The Mill Restaurants' path='./mill.png' url="https://www.themillrestaurants.com/" tec="wp"/>
-            <Project alt='project4' caption='Newberg Irrigation' path='./newberg.png' url="https://irrigationnet.com/" tec="wp"/>
+            <Project alt="React Todo page" caption="React TODO" path='./react.png' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
+            <Project alt="Svelte Todo page" caption="Svelte TODO" path='./svelte.png' url="https://svelte-todo-eta.vercel.app/" tec="svelte"/>
+            <Project alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./hawaii.png' url="https://www.thehawaiibowl.com/" tec="wp"/>
+            <Project alt='Mexico Bowl page' caption='Mexico Bowl' path='./mexico.png' url="https://newmexicobowl.com/" tec="wp"/>
+            <Project alt='The Mill Restaurants page' caption='The Mill Restaurants' path='./mill.png' url="https://www.themillrestaurants.com/" tec="wp"/>
+            <Project alt='Newberg Irrigation page' caption='Newberg Irrigation' path='./newberg.png' url="https://irrigationnet.com/" tec="wp"/>
           </div>
         </section>
         <section id="contact">
