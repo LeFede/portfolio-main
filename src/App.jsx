@@ -73,7 +73,7 @@ function App() {
             <a href="https://github.com/LeFede/" target="_blank"><i className="fa-brands fa-github"></i>GitHub</a>
             <a href="mailto:lefedeok@gmail.com"><i className="fa-at"></i>Email</a>
             <a href="https://www.linkedin.com/in/lefede" target="_blank"><i className="fa-brands fa-linkedin"></i>LinkedIn</a>
-            <a href="https://wa.me/+5492213142657" target="_blank"><i className="fas fa-mobile-alt"></i>{finalData?.e9 || 'Call me'}</a>
+            {/* <a href="https://wa.me/+5492213142657" target="_blank"><i className="fas fa-mobile-alt"></i>{finalData?.e9 || 'Call me'}</a> */}
           </div>
         </section>
       </main>
