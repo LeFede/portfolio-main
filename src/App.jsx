@@ -63,6 +63,7 @@ function App() {
             <Project alt="JS Calculator page" caption="JS Calculator" path='./calc.png' url="https://js-calculator-five-kappa.vercel.app/" tec="js"/>
             <Project alt="React Todo page" caption="React TODO" path='./react.png' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
             <Project alt="Svelte Todo page" caption="Svelte TODO" path='./svelte.png' url="https://svelte-todo-eta.vercel.app/" tec="svelte"/>
+            <Project alt="Vue Todo page" caption="Vue TODO" path='./vue.png' url="https://vue-todo-five-kappa.vercel.app/" tec="vue"/>
             <Project alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./hawaii.png' url="https://www.thehawaiibowl.com/" tec="wp"/>
             <Project alt='Mexico Bowl page' caption='Mexico Bowl' path='./mexico.png' url="https://newmexicobowl.com/" tec="wp"/>
             <Project alt='The Mill Restaurants page' caption='The Mill Restaurants' path='./mill.png' url="https://www.themillrestaurants.com/" tec="wp"/>
@@ -76,14 +77,13 @@ function App() {
             <a href="https://github.com/LeFede/" target="_blank"><i className="fa-brands fa-github"></i>GitHub</a>
             <a href="mailto:lefedeok@gmail.com"><i className="fa-at"></i>Email</a>
             <a href="https://www.linkedin.com/in/lefede" target="_blank"><i className="fa-brands fa-linkedin"></i>LinkedIn</a>
-            {/* <a href="https://wa.me/+5492213142657" target="_blank"><i className="fas fa-mobile-alt"></i>{finalData?.e9 || 'Call me'}</a> */}
           </div>
         </section>
       </main>
       <footer>
         <div className="container">
           <p></p>
-          <p>©2023 All Rights Reserved </p>
+          <p>©2023</p>
         </div>
       </footer>
     </div>
