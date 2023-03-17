@@ -46,19 +46,19 @@ function App() {
             <li><a onClick={handleClick} data-lang="es">🇦🇷</a></li>
             <li><a onClick={handleClick} data-lang="it">🇮🇹</a></li>
             <li><a onClick={handleClick} data-lang="de">🇩🇪</a></li>
-            <li className={`first`}><a href="#">{finalData?.e6 || ''}</a></li>
-            <li><a href="#work">{finalData?.e7 || ''}</a></li>
-            <li><a href="#contact">{finalData?.e8 || ''}</a></li>
+            <li className={`first`}><a href="#">{finalData?.e6 || 'About'}</a></li>
+            <li><a href="#work">{finalData?.e7 || 'Work'}</a></li>
+            <li><a href="#contact">{finalData?.e8 || 'Contact'}</a></li>
           </ul>
         </nav>
       </header>
       <main>
         <section className="welcome">
-          <h1>{finalData?.e1 || ''}</h1>
-          <h4>{finalData?.e2 || ''}</h4>
+          <h1>{finalData?.e1 || 'Hey I am Fede'}</h1>
+          <h4>{finalData?.e2 || 'a web developer'}</h4>
         </section>
         <section id="work">
-          <h2>{finalData?.e3 || ''}</h2>
+          <h2>{finalData?.e3 || 'These are some of my projects'}</h2>
           <div className='projects container'>
             <Project alt="JS Calculator page" caption="JS Calculator" path='./calc.png' url="https://js-calculator-five-kappa.vercel.app/" tec="js"/>
             <Project alt="React Todo page" caption="React TODO" path='./react.png' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
@@ -71,8 +71,8 @@ function App() {
           </div>
         </section>
         <section id="contact">
-          <h2>{finalData?.e4 || ''}</h2>
-          <h4>{finalData?.e5 || ''}</h4>
+          <h2>{finalData?.e4 || 'Let\'s work together...'}</h2>
+          <h4>{finalData?.e5 || 'How do you take your coffee?'}</h4>
           <div className='links'>
             <a href="https://github.com/LeFede/" target="_blank"><i className="fa-brands fa-github"></i>GitHub</a>
             <a href="mailto:lefedeok@gmail.com"><i className="fa-at"></i>Email</a>
