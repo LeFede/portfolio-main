@@ -55,19 +55,19 @@ function App() {
       <main>
         <section className="welcome">
           <h1>{finalData?.e1 || 'Hey I am Fede'}</h1>
-          <h4>{finalData?.e2 || 'a web developer'}</h4>
+          <h2>{finalData?.e2 || 'a web developer'}</h2>
         </section>
         <section id="work">
           <h2>{finalData?.e3 || 'These are some of my projects'}</h2>
           <div className='projects container'>
-            <Project alt="JS Calculator page" caption="JS Calculator" path='./calc.png' url="https://js-calculator-five-kappa.vercel.app/" tec="js"/>
-            <Project alt="React Todo page" caption="React TODO" path='./react.png' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
-            <Project alt="Svelte Todo page" caption="Svelte TODO" path='./svelte.png' url="https://svelte-todo-eta.vercel.app/" tec="svelte"/>
-            <Project alt="Vue Todo page" caption="Vue TODO" path='./vue.png' url="https://vue-todo-five-kappa.vercel.app/" tec="vue"/>
-            <Project alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./hawaii.png' url="https://www.thehawaiibowl.com/" tec="wp"/>
-            <Project alt='Mexico Bowl page' caption='Mexico Bowl' path='./mexico.png' url="https://newmexicobowl.com/" tec="wp"/>
-            <Project alt='The Mill Restaurants page' caption='The Mill Restaurants' path='./mill.png' url="https://www.themillrestaurants.com/" tec="wp"/>
-            <Project alt='Newberg Irrigation page' caption='Newberg Irrigation' path='./newberg.png' url="https://irrigationnet.com/" tec="wp"/>
+            <Project alt="JS Calculator page" caption="JS Calculator" path='./webp/calc.webp' url="https://js-calculator-five-kappa.vercel.app/" tec="js"/>
+            <Project alt="React Todo page" caption="React TODO" path='./webp/react.webp' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
+            <Project alt="Svelte Todo page" caption="Svelte TODO" path='./webp/svelte.webp' url="https://svelte-todo-eta.vercel.app/" tec="svelte"/>
+            <Project alt="Vue Todo page" caption="Vue TODO" path='./webp/vue.webp' url="https://vue-todo-five-kappa.vercel.app/" tec="vue"/>
+            <Project alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./webp/hawaii.webp' url="https://www.thehawaiibowl.com/" tec="wp"/>
+            <Project alt='Mexico Bowl page' caption='Mexico Bowl' path='./webp/mexico.webp' url="https://newmexicobowl.com/" tec="wp"/>
+            <Project alt='The Mill Restaurants page' caption='The Mill Restaurants' path='./webp/mill.webp' url="https://www.themillrestaurants.com/" tec="wp"/>
+            <Project alt='Newberg Irrigation page' caption='Newberg Irrigation' path='./webp/newberg.webp' url="https://irrigationnet.com/" tec="wp"/>
           </div>
         </section>
         <section id="contact">
