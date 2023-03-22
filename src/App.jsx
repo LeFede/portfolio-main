@@ -42,10 +42,10 @@ function App() {
         <input type="checkbox" className="mobile" id="mobile" />
         <nav>
           <ul>
-            <li><a onClick={handleClick} data-lang="en">🇬🇧</a></li>
-            <li><a onClick={handleClick} data-lang="es">🇦🇷</a></li>
-            <li><a onClick={handleClick} data-lang="it">🇮🇹</a></li>
-            <li><a onClick={handleClick} data-lang="de">🇩🇪</a></li>
+            <li><a onClick={handleClick} data-lang="en" href="#uk">🇬🇧</a></li>
+            <li><a onClick={handleClick} data-lang="es" href="#ar">🇦🇷</a></li>
+            <li><a onClick={handleClick} data-lang="it" href="#it">🇮🇹</a></li>
+            <li><a onClick={handleClick} data-lang="de" href="#de">🇩🇪</a></li>
             <li className={`first`}><a href="#">{finalData?.e6 || 'About'}</a></li>
             <li><a href="#work">{finalData?.e7 || 'Work'}</a></li>
             <li><a href="#contact">{finalData?.e8 || 'Contact'}</a></li>
@@ -72,7 +72,7 @@ function App() {
         </section>
         <section id="contact">
           <h2>{finalData?.e4 || 'Let\'s work together...'}</h2>
-          <h4>{finalData?.e5 || 'How do you take your coffee?'}</h4>
+          <h3>{finalData?.e5 || 'How do you take your coffee?'}</h3>
           <div className='links'>
             <a href="https://github.com/LeFede/" target="_blank"><i className="fa-brands fa-github"></i>GitHub</a>
             <a href="mailto:lefedeok@gmail.com"><i className="fa-at"></i>Email</a>
