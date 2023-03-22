@@ -64,10 +64,10 @@ function App() {
             <Project alt="React Todo page" caption="React TODO" path='./webp/react.webp' url="https://react-todo-liard-rho.vercel.app/" tec="react"/>
             <Project alt="Svelte Todo page" caption="Svelte TODO" path='./webp/svelte.webp' url="https://svelte-todo-eta.vercel.app/" tec="svelte"/>
             <Project alt="Vue Todo page" caption="Vue TODO" path='./webp/vue.webp' url="https://vue-todo-five-kappa.vercel.app/" tec="vue"/>
-            <Project alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./webp/hawaii.webp' url="https://www.thehawaiibowl.com/" tec="wp"/>
-            <Project alt='Mexico Bowl page' caption='Mexico Bowl' path='./webp/mexico.webp' url="https://newmexicobowl.com/" tec="wp"/>
-            <Project alt='The Mill Restaurants page' caption='The Mill Restaurants' path='./webp/mill.webp' url="https://www.themillrestaurants.com/" tec="wp"/>
-            <Project alt='Newberg Irrigation page' caption='Newberg Irrigation' path='./webp/newberg.webp' url="https://irrigationnet.com/" tec="wp"/>
+            <Project contain alt='Hawaii Bowl page' caption='Hawaii Bowl' path='./webp/hawaiiw.webp' url="https://www.thehawaiibowl.com/" tec="wp"/>
+            <Project contain alt='Mexico Bowl page' caption='Mexico Bowl' path='./webp/mexicow.webp' url="https://newmexicobowl.com/" tec="wp"/>
+            <Project contain alt='The Mill Restaurants page' caption='The Mill Restaurants' path='./webp/exw.webp' url="https://www.themillrestaurants.com/" tec="wp"/>
+            <Project contain alt='Newberg Irrigation page' caption='Newberg Irrigation' path='./webp/newbergw.webp' url="https://irrigationnet.com/" tec="wp"/>
           </div>
         </section>
         <section id="contact">

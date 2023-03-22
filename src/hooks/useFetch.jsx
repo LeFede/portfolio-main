@@ -21,7 +21,7 @@ function useFetch(lang) {
 
     ;(async () => {
       try {
-        const res = await axios.get("https://zwv7l8-8080.csb.app/en", { signal: controller.signal })
+        const res = await axios.get("https://fx5mwe-8080.csb.app/en", { signal: controller.signal })
         setData(res.data)
         
       } catch(err) {

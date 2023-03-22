@@ -2,6 +2,7 @@
 
 :root {
 	--main-white: #f0f0f0;
+  --secondary-white: #EEBECA;
 	--main-red: #922633;;
 	--secondary-red: #be3144;
 
@@ -13,10 +14,11 @@
 }
 
 html {
-	font-family: 'Poppins';
+	font-family: 'Poppins', serif;
 	color: var(--main-white);
 	font-weight: 500;
 	font-size: clamp(1.5rem, 3vw, 2rem);
+  font-display: swap;
 }
 
 body { min-height: 100dvh; min-width: 100dvw; position: relative; }
@@ -115,7 +117,8 @@ footer {
 #contact h3 {
   font-weight: 200;
 	font-style: italic;
-	color: var(--secondary-red);
+  font-size: 1rem;
+	color: var(--secondary-white);
 }
 
 h4 {
@@ -200,6 +203,10 @@ label {
     background-position: center center;
     aspect-ratio: 1;
     background-size: cover;
+    background-repeat: no-repeat;
+    &.contain {
+      background-size: 40%;
+    }
   }
   .desc {
     padding: 1rem;
@@ -287,7 +294,9 @@ h1, h2, h3, h4, h5, h6, p, li, a, span {
 }
 
 i {
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Font Awesome 5 Brands", monospace;
+  font-display: swap;
+
 }
 
 
